@@ -44,7 +44,7 @@ contract Bank is Regulator {
     }
 }
 
-contract MyFirstContract is Bank(10) {
+contract MyContract is Bank(10) {
     string private name;
     uint256 private age;
 
