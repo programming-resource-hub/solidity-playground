@@ -20,7 +20,7 @@ contract Transaction {
         owner = msg.sender;
     }
 
-    function() public payable isOwner validValue {
+    function runCheck() public payable isOwner validValue {
         emit SenderLogger(msg.sender);
         emit ValueLogger(msg.value);
     }
